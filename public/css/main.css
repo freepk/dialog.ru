@@ -1,0 +1,95 @@
+a {
+	color: rgb(37, 37, 37); /*text-decoration: none;*/
+}
+body {
+	font-family: Arial,Helvetica,sans-serif; font-size: 13px;
+}
+input {
+	font-family: Arial,Helvetica,sans-serif; font-size: 13px;
+}
+textarea {
+	font-family: Arial,Helvetica,sans-serif; font-size: 13px;
+}
+.subgroup a {
+	text-decoration: none;
+}
+.subgroup a:hover {
+	text-decoration: underline;
+}
+.even {
+}
+.odd {
+		background-color: rgb(236,250,209);
+}
+.margin_auto_outer {
+	text-align: center; margin: 0; padding: 0;
+}
+.margin_auto_inner {
+	text-align: left; margin: 0 auto; padding: 0;
+}
+.main_min_max {
+	 min-width: 994px; max-width: 1230px;
+}
+.bg_left {
+	background: url('/images/bg_left.gif') repeat-y left;
+}
+.bg_right {
+	background: url('/images/bg_right.gif') repeat-y right;
+}
+.bg_left_bottom {
+	background: url('/images/bg_left_bottom.gif') no-repeat bottom left;
+}
+.bg_right_bottom {
+	background: url('/images/bg_right_bottom.gif') no-repeat bottom right;
+}
+.bg_basket_top {
+	background: url('/images/bg_basket_top.gif') no-repeat top left;
+}
+.bg_basket_center {
+	background: url('/images/bg_basket_center.gif') no-repeat top left;
+}
+.bg_basket_bottom {
+	background: url('/images/bg_basket_bottom.gif') no-repeat top left;
+}
+.bg_menu {
+	background: url('/images/bg_menu.gif') no-repeat top left;
+}
+.bg_menu_li {
+	background: url('/images/bg_menu_li.png') no-repeat left top;
+}
+.bg_menu_bullet {
+	background: url('/images/bg_menu_bullet.gif') no-repeat left center;
+}
+.bg_drugstore {
+	background: url('/images/bg_drugstore.gif') no-repeat right top;
+}
+.bg_banner {
+	background: url('/images/bg_banner.gif') repeat-x top;
+}
+.bg_banner_left {
+	background: url('/images/bg_banner_left.gif') no-repeat left top;
+}
+.bg_banner_right {
+	background: url('/images/bg_banner_right.gif') no-repeat right top;
+}
+.bg_name_left {
+	background: url('/images/bg_name_left.gif') no-repeat left top;
+}
+.bg_name_right {
+	background: url('/images/bg_name_right.gif') no-repeat right top;
+}
+.bg_name_bottom {
+	background: url('/images/bg_name_bottom.gif') repeat-x top;
+}
+.bg_name_center {
+	background: url('/images/bg_name_center.gif') repeat-x top;
+}
+.bg_bullet_green {
+	background: url('/images/bg_bullet_green.gif') no-repeat left center;
+}
+.bg_bullet_red {
+	background: url('/images/bg_bullet_red.gif') no-repeat left center;
+}
+.bg_center_bottom {
+	background: url('/images/bg_center_bottom.gif') repeat-x bottom;
+}

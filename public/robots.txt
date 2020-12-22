@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /?action=feedback
+Disallow: /?action=order
+Disallow: /?action=register
+Disallow: /?action=enter
+Disallow: /?action=exit
+Disallow: /?action=goods
+Disallow: /?action=info
+Host: www.dialog.ru
+Sitemap: http://www.dialog.ru/sitemap.xml

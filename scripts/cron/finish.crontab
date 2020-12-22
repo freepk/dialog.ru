@@ -1,0 +1,2 @@
+#minute hour    mday    month   wday    command
+*	*	*/1	*	*	/usr/local/www/www.dialog.ru/scripts/cron/finish.php >> /usr/local/www/www.dialog.ru/logs/finish_log

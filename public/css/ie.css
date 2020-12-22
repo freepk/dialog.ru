@@ -1,0 +1,6 @@
+.main_min_max {
+	 width: expression((w = (document.documentElement.clientWidth || document.body.clientWidth)) > 1230 ? '1230px' : (w > 994 ? 'auto' : '994px'));
+}
+.iepngfix {
+	behavior: url('/css/iepngfix/iepngfix.htc')
+}

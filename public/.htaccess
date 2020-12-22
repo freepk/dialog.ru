@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST}			!^www\.dialog\.ru					[NC]
+RewriteCond %{HTTP_HOST}			!^$
+RewriteRule ^/?(.*)				http://www.dialog.ru/$1					[L,R=301,NE]
+
+RewriteRule ^\d+/(.*)_(\d+)\.html$		/?action=info&goodsId=$2                                [L]
+RewriteRule ^\d+/\d+/(.*)_(\d+)\.html$		/?action=info&goodsId=$2                                [L]
+RewriteRule ^\d+/\d+/\d+/(.*)_(\d+)\.html$	/?action=info&goodsId=$2                                [L]
+
+RewriteRule ^(\d+)/?$				/?action=goods&filter=class&value=$1&%{QUERY_STRING}	[L]
+RewriteRule ^\d+/(\d+)/?$			/?action=goods&filter=group&value=$1&%{QUERY_STRING}	[L]
+RewriteRule ^\d+/\d+/(\d+)/?$			/?action=goods&filter=subgroup&value=$1&%{QUERY_STRING}	[L]
+
+RewriteCond %{QUERY_STRING}			^value=(.+)$
+RewriteRule ^search/$				/?action=goods&filter=keyword&%{QUERY_STRING}		[L]
+
